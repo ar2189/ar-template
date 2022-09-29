@@ -54,12 +54,17 @@ h1, h2 {
     border-bottom: 2px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and cover text*/
 
 #hero-outer {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -74,7 +79,6 @@ animation-fill-mode: forwards;
 }
 
 
-
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from {
@@ -83,4 +87,23 @@ animation-fill-mode: forwards;
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 250px;
+    height: 100px;
+
+    padding-top: 45px;
+    padding-left: 15px;
+
+    background-color: rgba(66, 4, 66, 0.7);
+
+    bottom: 20px;
+    right: 170px;
+
+    position: absolute;
 }
