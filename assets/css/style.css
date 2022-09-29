@@ -23,6 +23,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 400%;
+    margin-left: 20px;
 }
 /* navigation links */
 
@@ -106,4 +107,30 @@ animation-fill-mode: forwards;
     right: 170px;
 
     position: absolute;
+}
+
+/* ethos*/
+
+#ethos {
+    height: 500px;
+}
+
+#left-about {
+    padding-top: 25px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 25px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
