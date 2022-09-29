@@ -119,18 +119,46 @@ animation-fill-mode: forwards;
     padding-top: 25px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
     padding-top: 25px;
     width: 33%;
     float: right;
-    background-color: red;
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top: 2px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
