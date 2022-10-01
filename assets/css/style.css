@@ -239,7 +239,7 @@ footer {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 2;
+    column-count: 3;
     column-gap: 0;
 }
 
@@ -321,5 +321,15 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         width: 80%;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+}
+/* For small screens of 800px and down*/
+@media  screen and (max-wifth: 800px) {
+    #photos {
+        column-count: 1;
     }
 }
